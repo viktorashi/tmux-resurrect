@@ -6,11 +6,16 @@
 # This looks at the the respective apps' DB's and conversation state files and attempts to find exactly the conversation you were in before, and restores it via
 # ```bash
 # agy --conversation=%s
-# ```
-# and
+#,
 # ```bash
 # copilot --resume=%s
 # ```
+# and
+#
+# ```bash
+# codex resume %s
+# ```
+#
 # And it works really realiably in my experience.
 #
 #
